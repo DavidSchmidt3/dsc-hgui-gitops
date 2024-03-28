@@ -1,0 +1,13 @@
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: dsc-hgui-openapi-ui
+spec:  
+  selector:
+    pod: dsc-hgui-webapi-label
+  ports:
+  - name: http
+    protocol: TCP
+    port: 80  
+    targetPort: 8081

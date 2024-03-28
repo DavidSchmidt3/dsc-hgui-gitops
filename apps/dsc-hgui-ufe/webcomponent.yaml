@@ -1,0 +1,24 @@
+apiVersion: fe.milung.eu/v1
+kind: WebComponent
+metadata:
+  name: dsc-hgui-ufe
+spec:
+  module-uri: http://dsc-hgui-ufe.wac-hospital/build/ufe.esm.js
+                     # module web komponentu pre tento mikroFE
+                     # - umiestnený v namespace wac-hospital
+  navigation:
+    - element: dsc-hgui-app    # element, ktorý bude vložený na stránku
+      attributes:
+      - name: api-base
+        value: http://localhost:30081/api
+      - name: ambulance-id
+        value: bobulova
+      path: dsc-hgui      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
+      title: Dávid Schmidt hospital guidance     # názov mikro aplikácie
+      details: Odborné poradenstvo pre pacientov
+  preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
+  proxy: true                       # pre komponenty v rámci klastra, neprístupné na verejnej sieti
+                                    # musí byť táto hodnota nastavená na true
+  hash-suffix: v1alpha1             # voliteľný suffix pre načítanie modulu web komponentu - jeho zmenou
+                                    # sa mení názov URL pre modul a tým je možné predísť problémom
+                                    # s verziami vo vyrovnávacích pamätiach

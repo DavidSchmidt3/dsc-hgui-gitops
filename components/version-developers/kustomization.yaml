@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1alpha1
+kind: Component
+images:
+- name: davidschmidt38/dsc-hgui-ufe
+  newName: davidschmidt38/dsc-hgui-ufe # {"$imagepolicy":  "wac-hospital:dsc-hgui-ufe:name"}
+  newTag: main.20240319.1027 # {"$imagepolicy": "wac-hospital:dsc-hgui-ufe:tag"}
+- name: milung/ufe-controller
+  newName: milung/ufe-controller # {"$imagepolicy":  "wac-hospital:ufe-controller:name"}
+  newTag: 1.7.3 # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}
+- name: davidschmidt38/dsc-hgui-webapi
+  newName: davidschmidt38/dsc-hgui-webapi # {"$imagepolicy":  "wac-hospital:dsc-hgui-webapi:name"}
+  newTag: main.20240327.0757 # {"$imagepolicy": "wac-hospital:dsc-hgui-webapi:tag"}
