@@ -3,7 +3,7 @@ kind: Kustomization
 
 commonLabels:
      app.kubernetes.io/part-of: wac-hospital
-     app.kubernetes.io/name: dsc-hgui-dsc-hgui
+     app.kubernetes.io/name: dsc-hgui
 
 namespace: wac-hospital
 

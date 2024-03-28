@@ -9,8 +9,8 @@ commonLabels:
   app.kubernetes.io/part-of: wac-hospital
 
 resources:
-- ../../../apps/dsc-hgui-dsc-hgui-ufe
-- ../../../apps/dsc-hgui-dsc-hgui-webapi
+- ../../../apps/dsc-hgui-ufe
+- ../../../apps/dsc-hgui-webapi
 
 components:
 - ../../../components/version-developers

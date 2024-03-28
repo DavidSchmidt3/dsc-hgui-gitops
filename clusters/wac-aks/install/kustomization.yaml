@@ -5,10 +5,10 @@ namespace: wac-hospital
 
 commonLabels:
  app.kubernetes.io/part-of: wac-hospital
- app.kubernetes.io/name: dsc-hgui-dsc-hgui
+ app.kubernetes.io/name: dsc-hgui
 
 resources:
- - ../../../apps/dsc-hgui-dsc-hgui-ufe
+ - ../../../apps/dsc-hgui-ufe
 
 
 components:

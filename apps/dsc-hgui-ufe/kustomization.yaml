@@ -8,4 +8,4 @@ resources:                  # zoznam manifestov - objektov,
 - webcomponent.yaml
 
 commonLabels:               # značky priradené všetkým objektom tejt aplikácie
-  app.kubernetes.io/component: dsc-hgui-dsc-hgui-ufe
+  app.kubernetes.io/component: dsc-hgui-ufe
