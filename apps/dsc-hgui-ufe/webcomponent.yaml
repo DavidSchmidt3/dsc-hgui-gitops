@@ -8,11 +8,7 @@ spec:
                      # - umiestnený v namespace wac-hospital
   navigation:
     - element: dsc-hgui-app    # element, ktorý bude vložený na stránku
-      attributes:
-      - name: api-base
-        value: http://localhost:30081/api
-      - name: ambulance-id
-        value: bobulova
+    
       path: dsc-hgui      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: Dávid Schmidt hospital guidance     # názov mikro aplikácie
       details: Odborné poradenstvo pre pacientov
