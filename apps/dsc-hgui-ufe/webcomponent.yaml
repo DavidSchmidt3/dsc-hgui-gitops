@@ -3,7 +3,7 @@ kind: WebComponent
 metadata:
   name: dsc-hgui-ufe
 spec:
-  module-uri: http://dsc-hgui-ufe.wac-hospital/build/ufe.esm.js
+  module-uri: http://dsc-hgui-ufe.wac-hospital/build/dsc-hgui-ufe.esm.js
                      # module web komponentu pre tento mikroFE
                      # - umiestnený v namespace wac-hospital
   navigation:
