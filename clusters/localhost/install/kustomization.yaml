@@ -11,6 +11,7 @@ commonLabels:
 resources:
 - ../../../apps/dsc-hgui-ufe
 - ../../../apps/dsc-hgui-webapi
+- ../../../apps/mongo-express
 
 components:
 - ../../../components/version-developers

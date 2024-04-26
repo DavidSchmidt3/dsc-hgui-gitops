@@ -12,7 +12,7 @@ spec:
    - matches:
        - path:
            type: PathPrefix
-           value: /dsc-hgui-api
+           value: /dsc-hgui-webapi
      filters:
        - type: URLRewrite
          urlRewrite:
