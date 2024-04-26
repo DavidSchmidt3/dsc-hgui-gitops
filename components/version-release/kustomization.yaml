@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: davidschmidt38/dsc-hgui-ufe
   newName: davidschmidt38/dsc-hgui-ufe
-  newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.0.1  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 - name: davidschmidt38/dsc-hgui-webapi
   newName: davidschmidt38/dsc-hgui-webapi
   newTag: 1.0.0
