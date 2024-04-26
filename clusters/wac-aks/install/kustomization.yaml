@@ -9,6 +9,7 @@ commonLabels:
 
 resources:
  - ../../../apps/dsc-hgui-ufe
+ - ../../../apps/dsc-hgui-webapi
 
 
 components:
