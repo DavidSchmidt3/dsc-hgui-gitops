@@ -12,9 +12,9 @@ spec:
       path: dsc-hgui      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: Dávid Schmidt hospital guidance     # názov mikro aplikácie
       details: Odborné poradenstvo pre pacientov
-  attributes:
-    - name: api-base
-      value: /dsc-hgui-webapi
+      attributes:
+        - name: api-base
+          value: /dsc-hgui-webapi
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
   proxy: true                       # pre komponenty v rámci klastra, neprístupné na verejnej sieti
                                     # musí byť táto hodnota nastavená na true
