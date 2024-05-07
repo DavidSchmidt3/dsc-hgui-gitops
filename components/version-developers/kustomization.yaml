@@ -6,7 +6,7 @@ images:
   newTag: main # {"$imagepolicy": "wac-hospital:dsc-hgui-ufe:tag"}
 - name: milung/ufe-controller
   newName: milung/ufe-controller # {"$imagepolicy":  "wac-hospital:ufe-controller:name"}
-  newTag: latest # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}
+  newTag: 1.7.3 # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}
 - name: davidschmidt38/dsc-hgui-webapi
   newName: davidschmidt38/dsc-hgui-webapi # {"$imagepolicy":  "wac-hospital:dsc-hgui-webapi:name"}
   newTag: v1.0.1 # {"$imagepolicy": "wac-hospital:dsc-hgui-webapi:tag"}
