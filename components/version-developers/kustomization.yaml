@@ -9,4 +9,4 @@ images:
   newTag: 1.7.3 # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}
 - name: davidschmidt38/dsc-hgui-webapi
   newName: davidschmidt38/dsc-hgui-webapi # {"$imagepolicy":  "wac-hospital:dsc-hgui-webapi:name"}
-  newTag: main.20240509.1120 # {"$imagepolicy": "wac-hospital:dsc-hgui-webapi:tag"}
+  newTag: main.20240509.1232 # {"$imagepolicy": "wac-hospital:dsc-hgui-webapi:tag"}
